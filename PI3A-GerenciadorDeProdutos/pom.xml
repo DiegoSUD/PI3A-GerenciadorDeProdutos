@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.erro404</groupId>
+    <artifactId>PI3A-GerenciadorDeProdutos</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <developers>
+        <developer>
+            <id>DiegoSUD</id>
+            <name>Diego Pereira</name>
+            <email>diegosud.pereira@gmail.com</email>
+            <organization>Erro404</organization>
+        </developer>
+        <developer>
+            <id>gabrielKurth12</id>
+            <name>Gabriel Kurth</name>
+            <email>garielrosakurth@gmail.com</email>
+            <organization>Erro404</organization>
+        </developer>
+        <developer>
+            <id>lucasma94</id>
+            <name>Lucas de Moura</name>
+            <email>moura.lucas94.lmas@gmail.com</email>
+            <organization>Erro404</organization>
+        </developer>
+        <developer>
+            <id>CondeAvallon</id>
+            <name>Renan Bonini</name>
+            <email>jovemsagaz@gmail.com</email>
+            <organization>Erro404</organization>
+        </developer>
+        <developer>
+            <id>vssouzaa</id>
+            <name>Victor Santos de Souza</name>
+            <email>victors.souza@hotmail.com</email>
+            <organization>Erro404</organization>
+        </developer>
+    </developers>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.45</version>
+        </dependency>
+    </dependencies>
+</project>
